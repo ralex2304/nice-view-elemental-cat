@@ -7,6 +7,7 @@
 #include "../../include/peripheral/initialize_listeners.h"
 #include "../../include/utils/draw_battery.h"
 #include "../../include/utils/draw_background.h"
+#include "../../include/utils/draw_cat.h"
 #include "../../include/utils/draw_bluetooth_logo_outlined.h"
 #include "../../include/utils/draw_bluetooth_logo.h"
 #include "../../include/utils/rotate_connectivity_canvas.h"
@@ -31,6 +32,6 @@ void render_connectivity() {
 
 void render_main() {
 #if IS_ENABLED(CONFIG_NICE_VIEW_ELEMENTAL_BACKGROUND)
-    draw_background(main_canvas, states.background_index);
+    draw_cat(main_canvas, states.background_index);
 #endif
 }

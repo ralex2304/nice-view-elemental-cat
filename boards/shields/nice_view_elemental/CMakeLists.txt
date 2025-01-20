@@ -11,11 +11,22 @@ if(CONFIG_ZMK_DISPLAY AND CONFIG_NICE_VIEW_WIDGET_STATUS)
     ./src/images/background_4.c
     ./src/images/background_5.c
     ./src/images/background_6.c
+    ./src/images/cat_0.c
+    ./src/images/cat_1.c
+    ./src/images/cat_2.c
+    ./src/images/cat_3.c
+    ./src/images/cat_4.c
+    ./src/images/cat_5.c
+    ./src/images/cat_6.c
+    ./src/images/cat_7.c
+    ./src/images/cat_8.c
+    ./src/images/cat_9.c
     ./src/images/bluetooth_logo_outlined.c
     ./src/images/bluetooth_logo.c
     ./src/images/bluetooth_searching.c
     ./src/images/usb_logo.c
     ./src/utils/draw_background.c
+    ./src/utils/draw_cat.c
     ./src/utils/draw_battery.c
     ./src/utils/draw_bluetooth_logo_outlined.c
     ./src/utils/draw_bluetooth_logo.c
